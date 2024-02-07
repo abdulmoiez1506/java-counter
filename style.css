@@ -1,0 +1,50 @@
+
+
+body {
+  background: rgb(142, 109, 151);
+  background: linear-gradient(
+    90deg,
+    rgb(78, 6, 63) 0%,
+    rgb(219, 103, 210) 100%
+  );
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.card-body {
+  background: #efbbe5;
+  padding: 180px;
+  border-radius: 80px;
+  text-align: center;
+}
+.card-body h1 {
+  margin-bottom: 20px;
+  font-size: 80px;
+}
+.card-btn button {
+  border-radius: 10px;
+  color: #bdb8c7;
+  padding: 15px 30px;
+  border: 2;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 0 15px;
+}
+button#decrement {
+  background: #830505;
+}
+
+button#reset {
+  background: #000000;
+  
+}
+
+button#increment {
+  background: #014608;
+  
+}
+
